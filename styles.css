@@ -1,0 +1,87 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+.navbar{
+    /* border: solid; */
+    display: flex;
+    justify-content: space-around;
+    background-color: #ff6008;
+    border-bottom: 2px solid white;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+.navbar a:hover{
+    color: #ff6008;
+    background-color: white;
+    transition: all 1s ease;
+}
+
+
+/* hero section */
+/* https: //assets.nicepagecdn.com/11a8ddce/3502986/images/pexels-photo-733500.jpg */
+
+.hero {
+    /* border: solid; */
+        height: 70vh;
+        background-image: url(https://assets.nicepagecdn.com/11a8ddce/3502986/images/pexels-photo-733500.jpg);
+        background-size: cover;
+        background-position: center;
+        background-position: top;
+
+}
+.hero .hero-content{
+    /* border: solid; */
+    
+    height: 80%;
+    
+}
+
+.hero-content{
+    margin-left: 7vw;
+    /* border: 2px solid ; */
+    position: relative;
+    top: 10vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    gap: 35px;
+    width: 60vw;
+
+}
+
+.hero-content h1{
+    font-size: 60px;
+    width: 73%;
+}
+
+.hero-content h4{
+    font-size: 25px;
+}
+
+.hero-content p{
+    width: 40%;
+    color: #cdcecd;
+}
+
+.hero-content button{
+    width: 170px;
+    height: 80PX;
+    border-radius: 40PX;
+    color: white;
+    background-color: #ff6008;
+    border: none;
+}
+
+.hero-content button:hover{
+    color: #ff6008;
+    background-color: white;
+    border: 2px solid #ff6008;
+}
