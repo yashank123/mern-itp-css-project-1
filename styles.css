@@ -21,7 +21,7 @@
 .navbar a:hover{
     color: #ff6008;
     background-color: white;
-    transition: all 1s ease;
+    transition: all 0.5s ease;
 }
 
 
@@ -68,7 +68,7 @@
 
 .hero-content p{
     width: 40%;
-    color: #cdcecd;
+    color: #a8aaa8;
 }
 
 .hero-content button{
@@ -81,6 +81,118 @@
 }
 
 .hero-content button:hover{
+    color: #ff6008;
+    background-color: white;
+    border: 2px solid #ff6008;
+}
+
+/* main section  */
+
+/* card section  */
+
+#about{
+    /* border: 2px solid; */
+    height: 100vh;
+    background-color: #f0cccf;
+    display: flex;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 65px;
+}
+
+.card{
+    background-color: white;
+    /* border: 2px solid; */
+    width: 30%;
+    height: 40%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+
+    border-radius: 5px;
+}
+
+.card h2{
+    font-size: 45px;
+    color: #f0cccf;
+}
+
+/* contact section */
+.contact{
+    margin-top: 65px;
+    display: flex;
+    height: 45vh;
+}
+
+.text-section{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    padding-left: 65px;
+    justify-content: space-evenly;
+}
+.highlight-box{
+    display: flex;
+    flex-direction: column;
+    background-color: #ff6008;
+    justify-content: space-evenly;
+    width: 45%;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* form section */
+.form{
+    width: 950px;
+    margin: 0 auto;
+    padding-top: 20px;
+    
+}
+.form_wrapper{
+    padding: 2rem 1rem;
+    
+    background-color: #f0cccf;
+
+}
+.form_wrapper h2{
+    text-align:center ;
+    color: orange;
+    margin-bottom: 2rem;
+    
+
+}
+.form_wrapper .form_group{
+    display: flex;
+    justify-content:space-between ;
+}
+ .form_group input{
+    width: 49%;
+    padding:16px ;
+    margin-bottom:.5rem ;
+
+}
+.single-in input{
+    width:100%
+
+}
+
+#form_button{
+    width: 170px;
+    height: 80PX;
+    border-radius: 40PX;
+    color: white;
+    background-color: #ff6008;
+    border: none;
+    font-size: 25px;
+}
+
+#form_button:hover{
     color: #ff6008;
     background-color: white;
     border: 2px solid #ff6008;
